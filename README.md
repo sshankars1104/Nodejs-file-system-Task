@@ -2,6 +2,13 @@
 
 This project demonstrates a simple Node.js application that creates a `.txt` file with the current timestamp as content and lists all files in a specific folder. The application uses Express.js for the API endpoints and the built-in `fs` module for file operations.
 
+## GitHub Link
+
+[GitHub Repository](https://github.com/sshankars1104/Nodejs-file-system-Task)
+
+## Render.com Link
+
+[Render.com Deployment](https://nodejs-file-system-task-4cbe.onrender.com)
 ## Prerequisites
 
 - Node.js
@@ -13,17 +20,17 @@ This project demonstrates a simple Node.js application that creates a `.txt` fil
 2. Navigate to the project directory.
 3. Install the dependencies using npm:
 
-    ```sh
-    npm install express
-    ```
+   ```sh
+   npm install express
+   ```
 
 ## Usage
 
 1. Start the server:
 
-    ```sh
-    node app.js
-    ```
+   ```sh
+   node app.js
+   ```
 
 2. The server will be running on `http://localhost:3000`.
 
@@ -41,9 +48,23 @@ This project demonstrates a simple Node.js application that creates a `.txt` fil
 - **Method:** `GET`
 - **Description:** Lists all files in the `files` directory.
 
-### Testing:
+### Testing on local:
 
-To create a file, access http://localhost:3000/create-file.
+To create a file, access http://localhost:3000/create-file
 
-To list all files, access http://localhost:3000/read-files.
+To read files, access http://localhost:3000/read-files
+
+### Testing on Render.com:
+
+To create a file, access
+
+    ```sh
+    https://nodejs-file-system-task-4cbe.onrender.com/create-file
+    ```
+
+To read files, access
+
+````sh
+   https://nodejs-file-system-task-4cbe.onrender.com/read-files
+   ```
 
